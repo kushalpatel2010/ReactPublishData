@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3d2bda86db01452a9e20044499767ebe" Name="Diagram1">
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.AccessMaster" Width="1.5" PointX="13.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.Attendance" Width="1.5" PointX="7.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.AttendanceApplication" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.City" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.Country" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.Holiday" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.HolidayMaster" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.Leave" Width="1.5" PointX="12.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.Menu" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.State" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.User" Width="1.5" PointX="10.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.UserAccess" Width="1.5" PointX="15.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.UserType" Width="1.5" PointX="13.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="plinkobit_hrmsModel.UserTypeAccess" Width="1.5" PointX="15.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_UserAccess_AccessMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_UserAccessType_AccessMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_Attendance_City" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_Attendance_User" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_AttendanceApplication_User" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_City_State" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_User_City" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_State_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_User_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK__Holiday__Holiday__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK__Leave__UserId__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_User_State" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_User_User" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_UserAccess_User" ManuallyRouted="false" />
+        <AssociationConnector Association="plinkobit_hrmsModel.FK_UserAccessType_UserType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
